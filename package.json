@@ -1,6 +1,6 @@
 {
   "name": "ui-avatar",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A web component for ui avatar",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",

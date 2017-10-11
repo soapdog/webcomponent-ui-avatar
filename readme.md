@@ -55,7 +55,7 @@ Need help with Stencil? Check out our docs [here](https://stenciljs.com/docs/my-
 ### Script tag
 
 - [Publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-- Put a script tag similar to this `<script src='https://unpkg.com/ui-avatar@0.0.1/dist/ui-avatar.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/ui-avatar@0.0.3/dist/uiavatar.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
