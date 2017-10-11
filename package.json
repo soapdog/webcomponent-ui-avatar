@@ -1,14 +1,14 @@
 {
-  "name": "my-name",
+  "name": "ui-avatar",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "A web component for ui avatar",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
-  "browser": "dist/myname.js",
+  "browser": "dist/uiavatar.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/soapdog/webcomponent-ui-avatar.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/soapdog/webcomponent-ui-avatar"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/soapdog/webcomponent-ui-avatar",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"

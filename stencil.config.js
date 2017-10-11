@@ -1,8 +1,8 @@
 exports.config = {
-  namespace: 'myname',
+  namespace: 'uiavatar',
   generateDistribution: true,
   bundles: [
-    { components: ['my-name'] }
+    { components: ['ui-avatar'] }
   ]
 };
 

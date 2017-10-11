@@ -4,31 +4,35 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import { MyName as MyName } from './components/my-name/my-name';
+import { UiAvatar as UiAvatar } from './components/ui-avatar/ui-avatar';
 
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLUiAvatarElement extends UiAvatar, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLUiAvatarElement: {
+  prototype: HTMLUiAvatarElement;
+  new (): HTMLUiAvatarElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "ui-avatar": HTMLUiAvatarElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "ui-avatar": HTMLUiAvatarElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "ui-avatar": JSXElements.UiAvatarAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface UiAvatarAttributes extends HTMLAttributes {
         
-          first?: any,
-          last?: any
+          name?: string,
+          rounded?: boolean | "true" | "false",
+          size?: number,
+          fontSize?: number,
+          length?: number,
+          background?: string
       }
   }
 }
