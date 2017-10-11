@@ -1,5 +1,3 @@
-<script src='https://unpkg.com/ui-avatar@0.0.1/dist/ui-avatar.js'></script>
-
 # UI Avatar Web Component 😍
 
 This is a pure web component with no dependencies for [ui avatars](https://ui-avatar.com). It is built using [StencilJS](https://stenciljs.com).
@@ -19,15 +17,8 @@ This is a pure web component with no dependencies for [ui avatars](https://ui-av
 ```
 
 Generates:
-<ui-avatar name="Andre Garzia"></ui-avatar>
 
-<ui-avatar name="Andre Garzia" rounded></ui-avatar>
-
-<ui-avatar name="Andre Garzia" color="ff00ff"></ui-avatar>
-
-<ui-avatar name="Andre Garzia" background="a0a0a0"></ui-avatar>
-
-<ui-avatar name="Andre Garzia" size="96"></ui-avatar>
+![sample avatars](http://take.ms/3btOxI)
 
 
 ## Getting Started
