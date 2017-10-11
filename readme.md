@@ -18,7 +18,7 @@ This is a pure web component with no dependencies for [ui avatars](https://ui-av
 
 Generates:
 
-![sample avatars](http://take.ms/3btOxI)
+![sample avatars](https://i.imgur.com/Ivi5IiH.png)
 
 
 ## Getting Started
